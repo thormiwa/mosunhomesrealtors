@@ -1,0 +1,87 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="{% static 'css/style1.css' %}">
+    <title>Mosun Homes & realtors</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <!--The Logo-->
+            <div class="mainlogo">
+                <div class="headerimage">
+                    <img class="mhr" src="{% static 'img/MHR.svg' %}" alt="" srcset="">
+                </div>
+                <div class="headerimage">
+                    <img class="mosun" src="{% static 'img/MOSUN HOMES & REALTORS LIMITED.svg' %}" alt="" srcset="">
+                </div>
+            </div>
+            <nav class="nav_bar">
+                <span class="navbar-toggle" id="js-nav_bar-toggle">
+                    <i class="fa fa-bars"></i>
+                </span>
+                <ul class="main_nav" id="js-menu">
+                    <li><a class="nav_links" href="{% url 'blog:index' %}">HOME</a></li>
+                    <li><a class="nav_links" href="{% url 'blog:about' %}">ABOUT</a></li>
+                    <li><a class="nav_links" href="{% url 'blog:portfolio' %}">PORTFOLIO</a></li>
+                    <li><a class="nav_links" href="{% url 'blog:contact' %}">CONTACT</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div>
+            <h1 class="about">ABOUT US</h1>
+        </div>
+        <div>
+            <h3 class="welcome">Welcome to Mosun Homes & Realtors Limited</h3>
+        </div>
+        <div>
+            <p class="discipline">
+                Mosun Homes and Realtors Limited prides itself in being a company that not only provides , specializing in real estate investments and sales, but has been recognized as a leader in property management and homeowner association management.
+                <br><br>
+                If you have questions about credit or legal matters, buying, selling or leasing, you can trust us to find you what you need fast. We'll make sure you feel confident and educated every step of the way.  
+                <br><br>
+                We also manage the assets in which we invest, which creates an alignment of interest with investors and results in the delivery of consistent quality.
+                <br><br>
+                Mosun Homes and Realtors Limited disciplined Real Estate prowess is driven by specialization in assets, experience, and in-depth quantitative and qualitative analysis. Our success is driven by integrity, transparency, and an ethics-based culture that understands and serves the needs of our clients.
+                <br><br>
+                With regards, <br>
+                Ademola</p>
+        </div>
+        <h1 class="team">OUR TEAM MEMBERS</h1>
+        <div class="team_member">
+            <div class="member">
+                <div>
+                    <img class="teamimg" src="{% static 'img/teamimg1.jpg' %}" alt="" srcset="">
+                </div>
+            </div>
+            <div class="membtext">
+                <h3>Ademola Adeosun</h3>
+                <h4 style="font-weight: bold;">Managing Director and CEO</h4>
+                <p id="agentext">Ademola has been a real estate agent and investor for the last 5 years. From managing properties, to sale and rentals, and attending to the specific needs of each client. The secret is always making sure clients understand value and management.</p>
+            </div>
+        </div>
+        <footer>
+            <h3>Copyright &copy; 2021 Mosun Homes Realtors Limited. All rights reserved</h3>
+            <div class="social_links">
+                <a href=""><img src="{% static 'img/twiter.svg' %}" alt="" srcset=""></a>
+                <a href="https://www.instagram.com/mosunmolahomes/" target="_blank"><img src="{% static 'img/instagram.svg' %}" alt="" srcset=""></a>
+                <a href=""><img src="{% static 'img/facebook.svg' %}" alt="" srcset=""></a>
+            </div>
+            <div class="footerlogo">
+                <img class="footerimg" src="{% static 'img/Group 33.svg' %}" alt="" srcset="">
+            </div>
+        </footer>
+    </div>
+    <script async src="{% static '/js/index.js' %}" type="text/javascript"></script>
+    <!-- Optional Javascript -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+</html>
