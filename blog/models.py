@@ -1,4 +1,6 @@
 from django.db import models
+from cloudinary.models import CloudinaryField
+
 
 # Create your models here.
 class Listings(models.Model):
@@ -11,11 +13,11 @@ class Listings(models.Model):
     house_feature3 = models.CharField(max_length=200)
     house_feature4 = models.CharField(max_length=200)
     house_feature5 = models.CharField(max_length=200)
-    house_image = models.ImageField(upload_to='images/')
-    house_image2 = models.ImageField(upload_to='images/')
-    house_image3 = models.ImageField(upload_to='images/')
-    house_image4 = models.ImageField(upload_to='images/')
-    house_image5 = models.ImageField(upload_to='images/')
+    house_image =  CloudinaryField('image', null=True, blank=True)
+    house_image2 =  CloudinaryField('image', null=True, blank=True)
+    house_image3 =  CloudinaryField('image', null=True, blank=True)
+    house_image4 =  CloudinaryField('image', null=True, blank=True)
+    house_image5 =  CloudinaryField('image', null=True, blank=True)
 
     def __str__(self):
         return self.house_description
