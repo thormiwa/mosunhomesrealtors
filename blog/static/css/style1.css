@@ -55,8 +55,9 @@ img.home{
     color: rgb(255, 255, 255);
 }
 
-.main_nav li:hover{
-    background-color: rgb(255, 255, 255);
+.nav_links:hover{
+    background-color: #f5f5f5;
+    color: #000000;
 }
 
 .service{
@@ -204,7 +205,7 @@ input[type=submit] {
 	outline: 0;
 	color: rgb(238, 238, 238);
 	border: 0;
-	padding: 12px 24px;
+	padding: 12px 24px !important;
 	border-radius: 4px;
 	transition: all ease-in-out 0.1s;
 	position: relative;
@@ -441,6 +442,10 @@ footer h3{
 
     }
 
+    form{
+        width: auto;
+    }
+
     .listing_view{
         padding: 30px;
         width: 100%;
@@ -537,7 +542,7 @@ footer h3{
 
     .contact{
         text-align: center;
-        padding: 0;
+        padding: 20px;
     }
 
     .cont{
