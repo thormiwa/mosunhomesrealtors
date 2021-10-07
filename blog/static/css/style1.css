@@ -167,8 +167,8 @@ h3.detail_price{
 
 #container {
     width: 70%;
-	padding: 12px 24px 24px 24px;
-	margin: 0 12px;
+	padding: 12px 0px 24px 24px;
+	margin: 0;
 	border-radius: 4px;
 }
 
@@ -211,6 +211,8 @@ input[type=submit] {
 	position: relative;
 	display: inline-block;
 	text-align: center;
+    -webkit-appearance: none;
+    -moz-appearance: none;
 }
 
 
@@ -291,7 +293,7 @@ input[type=submit]:hover {
 
 .about{
     text-align: left;
-    padding: 10px 0px 10px 10px;
+    padding: 10px 0px 10px 20px;
     font-size: 40px;
 }
 
@@ -310,20 +312,20 @@ input[type=submit]:hover {
 
 .welcome{
     text-align: left;
-    padding: 10px 0px 10px 10px;
+    padding: 10px 0px 10px 20px;
     font-size: 24px;
 }
 
 .discipline{
     text-align: left;
-    padding-left: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
     font-weight: 300;
 }
 
 .team{
     text-align: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding: 10px;
 }
 
 .houseimg{
@@ -427,7 +429,7 @@ footer h3{
         color: rgb(255, 255, 255);
     }
 
-    .main_nav a:hover{
+    .main_nav li:hover{
         background-color: white;
         cursor: pointer;
         color: black;
@@ -566,6 +568,11 @@ footer h3{
         text-align: center;
         padding: 10px 0;
         font-size: 16px;
+    }
+
+    img.home{
+        max-height: 200px;
+        object-fit: cover;
     }
     
     .phone{
