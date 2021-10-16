@@ -439,7 +439,7 @@ footer h3{
         text-align: center;
     }
 
-    #continer{
+    #container{
         width: 100%;
 
     }
@@ -591,27 +591,27 @@ footer h3{
  }
 
 @media screen and (min-width: 992px) {
-    .continer{
+    .container{
         width: auto;
     }
 }
     
 @media screen and (min-width: 1280px) {
-    .continer {
+    .container {
         width: auto;
     }
 }
     
     
 @media screen and (min-width: 1920px) {
-    .continer {
+    .container {
          width: auto;
          margin: 2vh 15vh;
     }
 }
     
 @media screen and (min-width: 3840px) {
-    .continer {
+    .container {
         width: auto;
     }
 }
