@@ -3577,14 +3577,12 @@ input[type="button"].btn-block {
   }
 
   .navigation_menu {
-    overflow-y: hidden;
     padding: 0;
     transition-duration: 1s;
     height: 100px;
   }
   .navigato{
     transition-duration: 1s;
-    overflow-y: hidden;
     padding: 0;
     height: 400px;
   }
@@ -3619,7 +3617,6 @@ input[type="button"].btn-block {
     top: 50px;
   }
   .list {
-    overflow-y: hidden;
     transition-duration: .7s;
     margin: 0 auto;
     left: -20px;

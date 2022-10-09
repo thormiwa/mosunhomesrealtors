@@ -417,7 +417,6 @@
   }
   .navigato{
     transition-duration: 1s;
-    overflow-y: hidden;
     padding: 0;
     height: 400px;
   }
