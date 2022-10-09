@@ -411,7 +411,6 @@
         top: 5px;
       } */
   .navigation_menu {
-    overflow-y: hidden;
     padding: 0;
     transition-duration: 1s;
     height: 100px;
