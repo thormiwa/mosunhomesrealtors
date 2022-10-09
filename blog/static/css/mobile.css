@@ -531,10 +531,10 @@
 
 
   .logo-text {
-    width: 200px;
     padding-left: 0;
     position: fixed;
     left: 100px;
+    max-width: 200px;
   }
 
   .logo-text {
