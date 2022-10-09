@@ -1,0 +1,617 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Nunito', sans-serif;
+}
+
+h3, h4, p{
+    color: rgb(39, 39, 39);
+}
+
+
+.headerimage{
+    text-align: center;
+}
+
+.mainlogo{
+    padding: 10px 0;
+}
+
+img.home{
+    text-align: center;
+    padding-top: 20px;
+}
+
+.headerimage .mhr{
+    padding-top: 5px;
+}
+
+.nav_bar{
+    background-color: rgb(0 0 0 / 93%);
+    font-size: 18px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding-bottom: 10px;
+}
+
+.navbar-toggle {
+    display: none;
+}
+
+.main_nav{
+    padding-top: 15px;
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.nav_links{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.nav_links:hover{
+    background-color: #f5f5f5;
+    color: #000000;
+}
+
+.service{
+    text-align: center;
+    font-weight: 800;
+}
+
+.homeimage {
+    padding-top: 10px;
+}
+
+.card-body{
+    text-align: center;
+}
+
+.listing_view{
+    padding: 30px;
+    width: 75%;
+}
+
+h1.detail_add{
+    font-size: 45px;
+    font-size: bold;
+    margin: 0;
+    margin-bottom: 30px;
+}
+
+.mainsec{
+    display: block;
+}
+
+.desc{
+    font-weight: bold;
+    padding: 10px 0;
+}
+
+.detail_desc{
+    padding-top: 5px;
+    padding-bottom: 20px;
+}
+
+.feat{
+    font-weight: bold;
+    padding: 10px 0;
+}
+
+.features{
+    padding-top: 5px;
+    padding-bottom: 20px;
+}
+
+h3.detail_price{
+    padding-bottom: 15px;
+    font-size: 20px;
+}
+
+.houseimg:first-child{
+    padding-top: 10px;
+}
+
+.houseimg{
+    padding: 5px;
+}
+
+.contact{
+    padding: 30px 0 20px 30px;
+}
+
+.cont{
+    padding: 20px;
+    font-size: 40px;
+}
+
+.cont_mo{
+    text-align: left;
+    padding-left: 20px;
+    font-size: 24px;
+}
+
+.canon{
+    text-align: left;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    font-size: 16px;
+}
+
+.mail{
+    text-align: left;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    font-size: 16px;
+}
+
+.phone{
+    text-align: left;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    font-size: 25px;
+}
+
+.btn-warning {
+    color: #f5f5f5;
+    background-color: #d81812;
+    border-color: #fc8080;
+}
+
+#container {
+    width: 70%;
+	padding: 12px 0px 24px 24px;
+	margin: 0;
+	border-radius: 4px;
+}
+
+
+label{
+	font-size: 16px;
+	margin-left: 12px;
+}
+
+
+input[type=text],input[type=email], textarea {
+    width: 90%;
+    padding: 12px;
+    border: 5px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+#divided{
+    width: 45%;
+}
+
+input[type=text]:focus,input[type=email]:focus, textarea:focus {
+	border: 1px solid green;
+}
+
+
+input[type=submit] {
+	background: #d81812;
+	margin: 0 auto;
+	outline: 0;
+	color: rgb(238, 238, 238);
+	border: 0;
+	padding: 12px 24px !important;
+	border-radius: 4px;
+	transition: all ease-in-out 0.1s;
+	position: relative;
+	display: inline-block;
+	text-align: center;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+
+input[type=submit]:focus {
+	background: #A5D6A7;
+	color: whitesmoke;
+}
+
+
+input[type=submit]:hover {
+	background: #2196F3;
+}
+
+
+.center {
+	text-align: left;
+}
+
+.servicecontainer{
+    display: flex;
+    justify-content:space-between;
+}
+
+.servicecontainer div{
+    padding: 30px;
+    background-color: rgb(0 0 0 / 93%);
+    border-radius: 10px;
+}
+
+.servicesdetail{
+    padding: 20px 0;
+}
+
+.servicesdetail h2{
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.servicesdetail h4{ 
+    font-weight: 300;
+    padding: 10px 0;
+}
+
+.servicesdetail{
+    margin: 30px;
+    flex-basis: 30%;
+}
+
+.servicesdetail1 h2{
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.servicesdetail1 h4{
+    font-weight: 300;
+    padding: 10px 0;
+}
+
+.servicesdetail1{
+    margin: 30px;
+    flex-basis: 30%;
+}
+
+.servicesdetail2 h2{
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.servicesdetail2 h4{
+    padding: 10px 0;
+    font-weight: 300;
+}
+
+.servicesdetail2{
+    margin: 30px;
+    flex-basis: 30%;
+}
+
+.about{
+    text-align: left;
+    padding: 10px 0px 10px 20px;
+    font-size: 40px;
+}
+
+.member{
+    padding: 10px 10px 10px 200px;
+}
+
+.membtext{
+    padding: 70px 0px 0px 30px;
+    text-align: left;
+}
+
+#agentext{
+    padding: 10px 10px 0px 0px;
+}
+
+.welcome{
+    text-align: left;
+    padding: 10px 0px 10px 20px;
+    font-size: 24px;
+}
+
+.discipline{
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: 300;
+}
+
+.team{
+    text-align: center;
+    padding: 10px;
+}
+
+.houseimg{
+    width: 300px;
+}
+
+.team_member{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+h2, h4{
+    color: #f5f5f5;
+}
+
+footer{
+    background-color: rgb(0 0 0 / 93%);
+}
+
+footer h3{
+    color: #f5f5f5;
+    text-align: center;
+    padding: 15px 10px 10px 10px;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.social_links{
+    text-align: center;
+}
+
+.footimg{
+    width: 30px;
+}
+
+.social_links a{
+    padding:10px 20px;
+}
+
+.social_links a:hover{
+    background-color: rgb(0, 0, 0);
+}
+
+.footerlogo{
+    text-align: center;
+}
+
+@media screen and (max-width: 768px){
+    .headerimage .mhr{
+        width: 200px;
+    }
+
+    
+    .nav_bar{
+        background-color: rgb(0 0 0 / 93%);
+        font-size: 18px;
+        border: 1px solid rgba(0, 0, 0, 0.2);
+        padding-bottom: 32px;
+    }
+
+    .navbar-toggle {
+        position: absolute;
+        right: 20px;
+        cursor: pointer; 
+        color: rgba(17, 16, 16, 0.8);
+        font-size: 24px;
+        display: block;
+    }
+
+    .fa{
+        color: #f5f5f5;
+    }
+    
+    .main_nav{
+        padding-top: 15px;
+        list-style: none;
+        display: none;
+    }
+
+    #agentext{
+        padding:0px 20px;
+    }
+
+    .houseim{
+        text-align: center ;
+    }
+
+    .active {
+        display: block;
+    }
+    
+    .main_nav li{
+        text-align: center;
+        margin: 15px auto;
+    }
+    
+    a.nav_links{
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+    }
+
+    .main_nav li:hover{
+        background-color: white;
+        cursor: pointer;
+        color: black;
+    }
+
+    .card-body{
+        text-align: center;
+    }
+
+    #continer{
+        width: 100%;
+
+    }
+
+    form{
+        width: auto;
+    }
+
+    .listing_view{
+        padding: 30px;
+        width: 100%;
+    }
+
+    h3.desc{
+        font-size: 15px;
+        padding: 10px 0;  
+        text-align: center;
+    }
+
+    h3.feat{
+        font-size: 15px;
+        padding: 10px 0; 
+        text-align: center; 
+    }
+
+    h1.detail_add{
+        text-align: center;
+        font-size: 20px;
+    }
+
+    h4{
+        padding: 10px 0;
+        font-size: 14px;
+        font-weight: 300;
+    }
+
+    .detail_desc{
+        text-align: center;
+        padding-bottom: 20px;
+    }
+
+    h3.detail_price{
+        text-align: center;
+        padding-bottom: 15px;
+        font-size: 25px;
+    }
+
+    .features{
+        padding: 10px 0;
+    }
+
+    .houseimg:first-child{
+        padding-top: 10px;
+    }
+
+    .houseimg{
+        padding: 5px;
+        width: 310px;
+    }
+
+    .service{
+        text-align: center;
+        font-weight: 300;
+    }
+
+    .servicecontainer{
+        display: flex;
+        flex-direction: column;
+    }
+    .servicecontainer div{
+        padding: 30px;
+    }
+
+    .servicesdetail {
+        margin: 20px;
+    }
+
+    .servicesdetail1 {
+        margin: 20px;
+    }
+
+    .servicesdetail2 {
+        margin: 20px;
+    }
+
+    .team_member{
+        display: flex;
+        flex-direction: column;
+    }
+    .member{
+        padding: 0px;
+    }
+
+    .teamimg{
+        width: 300px;
+    }
+
+    .membtext{
+        text-align: center;
+        padding: 20px;
+    }
+
+    .contact{
+        text-align: center;
+        padding: 20px;
+    }
+
+    .cont{
+        padding: 20px;
+        font-size: 40px;
+    }
+    
+    .cont_mo{
+        text-align: center;
+        font-size: 24px;
+        padding: 10px 0;
+    }
+    
+    .canon{
+        text-align: center;
+        padding: 10px 0;
+        font-size: 16px;
+    }
+    
+    .mail{
+        text-align: center;
+        padding: 10px 0;
+        font-size: 16px;
+    }
+
+    img.home{
+        height: 200px;
+        object-fit: cover;
+    }
+    
+    .phone{
+        text-align: center;
+        padding: 10px 0;
+        font-size: 16px;
+    }
+
+    .col-lg-3, .col-md-6, .col-sm-12{
+        padding: 0px 50px;
+    }
+
+    img.footerimg{
+        max-width: 200px;
+    }
+ }
+
+@media screen and (min-width: 992px) {
+    .continer{
+        width: auto;
+    }
+}
+    
+@media screen and (min-width: 1280px) {
+    .continer {
+        width: auto;
+    }
+}
+    
+    
+@media screen and (min-width: 1920px) {
+    .continer {
+         width: auto;
+         margin: 2vh 15vh;
+    }
+}
+    
+@media screen and (min-width: 3840px) {
+    .continer {
+        width: auto;
+    }
+}
