@@ -446,7 +446,6 @@
     width: 30px;
   }
   .list {
-    overflow-y: hidden;
     transition-duration: .7s;
     margin: 0 auto;
     left: -20px;
@@ -582,7 +581,6 @@
   } 
 
   .header_container .header-vl {
-
     font-size: 12px;
     width: 100%;
     text-align: left;
